@@ -42,7 +42,7 @@ The use of the CAST Highlight Agent and demonstration portfolio for the purposes
 
 The local code analysis can be run on any windows machine with a modern browser. If you opt to spin up an EC2 instance specifically for this purpose, you might incur the associated costs (although the computation requirements are well within the free tier).
 
-All resources will be [cleaned up at the end of the workshop](/5_Conclusion/51_CleanUp).
+All resources will be [cleaned up at the end of the workshop](/5_Conclusion/51_CleanUp.html).
 
 ## Additional Help 
 
