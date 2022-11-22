@@ -27,7 +27,7 @@ From there, you can log in to your freshly minted account at https://demo.casthi
 
 ## Downloading the Agent
 
-From the ***Application Scans*** page you can simply click on the **Download Agent** button and save the agent on your machine.
+From the ***Application Scans*** page you can simply click on the **Download Agent** button and save the agent on your (EC2) machine.
 ![Download Agent](/images/Install-1.png)
 
 ## Installation process
