@@ -23,15 +23,16 @@ If your machine is not Windows-based, we can quickly spin one up on EC2. A compl
 - Decrypting the administrator password
 - RDPing to the machine and installing your favourite browser.
 
-From there, you can log in to your freshly minted account at https://demo.casthighlight.com and proceed to the next step.
+Then you should copy the applications to scan onto the EC2 instance, and from there log in to your freshly minted account at https://demo.casthighlight.com where you'll proceed to the next step.
+![Highlight Portal in an EC2 Instance](/images/Install-3.png)
 
 ## Downloading the Agent
 
-From the ***Application Scans*** page you can simply click on the **Download Agent** button and save the agent on your (EC2) machine.
+From the ***Application Scans*** page you can simply click on the **Download Agent** button and save the agent on your (Windows/EC2) machine.
 ![Download Agent](/images/Install-1.png)
 
 ## Installation process
-The file *CastHighlightSetup.exe* can be executed and will enable you to choose a Language (we'll go with English here) for the setup wizard. You can
+On your Windows/EC2 machine, the file *CastHighlightSetup.exe* can be executed and will enable you to choose a Language (we'll go with English here) for the setup wizard. You can
 - Click on ***Next***
 - Read the agreement and select the *"I accept the agreement"* option
 - Select an installation folder (as you can see, the agent doesn't take much space)

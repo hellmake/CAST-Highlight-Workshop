@@ -17,6 +17,9 @@ Before we generate insights about our applications, we have some setup to do. He
 - Download and launch the analyzer
 - Upload the results to the CAST Highlight platform.
 
+The overview of this process looks like this:
+![Overview of the process](/images/Scan-Overview.png)
+
 {{% notice warning %}}
 The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you experience how CAST Highlight can be leveraged to drive your move-to-cloud while demonstrating best practices along the way. These examples are not intended for use in production environments.
 {{% /notice %}}

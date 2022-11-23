@@ -5,7 +5,7 @@ weight: 5
 ---
 # Scanning the Code
 
-Now that the **CAST Highlight Agent** is launched (if not you should find it in your *Start Menu*), you'll see how easy the scanning process actually is. All you need to do is select the location where you have unzipped the source code of the first application:
+Now that the **CAST Highlight Agent** is launched (if not you should find it in your Windows/EC2 *Start Menu*), you'll see how easy the scanning process actually is. All you need to do is select the location where you have unzipped the source code of the first application:
 ![Folder Selection](/images/Scan-1.png)
 
 {{% notice info %}}

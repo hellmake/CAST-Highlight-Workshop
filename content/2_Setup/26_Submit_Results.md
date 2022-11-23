@@ -8,7 +8,7 @@ weight: 6
 
 The "technical" work is now done. The ***CAST Highlight Agent*** has done its job and produced scan results for both applications and we're going to upload them to our portfolio.
 
-Let's go back to the CAST Highlight web portal and click on the ***APPLICATION SCANS*** menu (if you don't see this menu, remember the trick to switch to your own *subdomain*). Our campaign is still pending: 
+Let's go back to the CAST Highlight web portal (using our EC2 instance if we used that for scanning) and click on the ***APPLICATION SCANS*** menu (if you don't see this menu, remember the trick to switch to your own *subdomain*). Our campaign is still pending: 
 ![Campaign Launched](/images/Declare-7.png)
 
 ## Uploading the Code Scan Results
@@ -32,5 +32,13 @@ Here we decided to make this application quite important for the company:
 And once the answers are saved, we can click on the ***Submit*** button and let the interface work its magic. 
 ![All done](/images/Upload-5.png)
 While it does that, you should repeat the process with the second application so that the campaign is wrapped-up.
+
+{{% notice info %}}
+At this stage, if you have used an EC2 instance to perform the scans and would rather go back to the comfort of your own local browser, you may do so as we will no longer use the local code scan agent or the windows machine (we'll clean it up at the end of the workshop).
+{{% /notice %}}
+
+
 ### Onto the results consumption
+
+
 Now that we have performed the scans and uploaded the results, we can get to the nice part: getting insights from them...

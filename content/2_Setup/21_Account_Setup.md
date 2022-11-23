@@ -21,9 +21,10 @@ Follow the link and choose your display name and password:
 
 Then click on "Save" and you'll be able to log in to the CAST Highlight SaaS platform:
 ![Open Sesame](/images/Register-7.png)
+Your demo account will remain active for a week, after which it will automatically be erased.
 
 {{% notice tip %}}
- You might have noticed that your login is your e-mail address enriched with ***+AWS***. While still being a valid alias, this identifies which portfolio you are going to manage. This little trick allows us to give you access to multiple portfolios on the same platform.
+ You might have noticed that your login is your e-mail address enriched with ***+AWSWorkshop***. While still being a valid alias, this identifies which portfolio you are going to manage. This little trick allows us to give you access to multiple portfolios on the same platform.
 {{% /notice %}}
 
 And there we are: the CAST Highlight home page!
