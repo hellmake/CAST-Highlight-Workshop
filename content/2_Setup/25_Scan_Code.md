@@ -30,7 +30,7 @@ By analyzing the project files, the agent has identified the presence of several
 The summary of the scan is displayed, and by clicking on ***Save*** we're prompted to choose a location to store the scan's results. The resulting .zip file will be located there.
 ![Result File](/images/Scan-6.png)
 
-You can go back to the start and repeat the process with the second application, after which you should have two *HighlightResult...zip* files.
+You can go back to the start and repeat the process with the second application, after which you should have two *HighlightResult.MM_DD_YYYY_HH_MI.zip* files.
 
 ### Onto the upload
 All we have left to do is send our results to the SaaS portal...
