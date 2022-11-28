@@ -29,7 +29,9 @@ All these aspects are fundamental to drive a move-to-cloud or modernization proj
 
 ## Where to find our new apps
 
-Let's find our way back to the main *home page* by clicking on ***HOME*** in the top menu. Now let's scroll down on that page until we see the list of ***Latest Onboarded Apps***:
+Let's find our way back to the main *home page* by clicking on ***HOME*** in the top menu. 
+![Home Button](/images/Home-Button.png)
+Now let's scroll down on that page until we see the list of ***Latest Onboarded Apps***:
 ![Latest Apps](/images/DetailedIntro-1.png)
 
 {{% notice info %}}
@@ -52,4 +54,5 @@ This is the indivual page for this application. From here, we'll be able to acce
 Below the application's name, you can see the application's menu (we're currently on the ***Overview*** tab), which is where we'll navigate through the various screens detailing the insights generated for the app.
 
 ### Onto Cloud Readiness
+![CloudReady Button](/images/CloudReady-Button.png)
 Click on the ***CloudReady*** tab of the application's menu, and we'll see if it's ready to fly...  

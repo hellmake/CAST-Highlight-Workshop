@@ -25,6 +25,7 @@ There's lots going on here:
 - There are a number of ***High and Critical Severity Security Vulnerabilities*** related to those packages
 
 Let's start with the ***Vulnerabilities*** subtab:
+![Vulnerabilities Button](/images/Vulnerabilities-Button.png)
 
 ### CVEs and CWEs
 According to the US [National Institute of Standards and Technology](https://nvd.nist.gov/vuln), *The Common Vulnerabilities and Exposures ***(CVE)*** Program’s primary purpose is to uniquely identify vulnerabilities and to associate specific versions of code bases to those vulnerabilities.*
@@ -43,6 +44,7 @@ The next most problematic component on this list is Log4j: on top of sporting se
 ![CWEs](/images/DetailedSCA-5.png)
 
 ### Licenses and obsolescence
+![Licenses Button](/images/Licenses-Button.png)
 Going to the ***Licenses*** subtab you can find a breakdown of the licenses claimed by the third-party libraries. We suggest to focus on the red (High Risk) ones. Clicking on an individual license brings up the license's text and a summary of what it allows and doesn't allow.
 ![License Details](/images/DetailedSCA-6.png)
 ... maybe we'll want to have a lawyer take a look at this.

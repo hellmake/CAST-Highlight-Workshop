@@ -22,6 +22,7 @@ The administration menus will automatically appear at the top of your screen.
 {{% /notice %}}
 
 You'll reach the applications management page (which at this stage should show an empty list). Let's click on that big ***+ Create Application*** button to add our first new app.
+![Add app button](/images/Declare-8.png)
 You can give it a name and set yourself as a Contributor (or leave the ***Contributors*** box empty - at this stage it doesn't really matter), then click on ***Save***.
 ![Add a new app](/images/Declare-2.png)
 
@@ -30,7 +31,7 @@ And you'll see the application added to the list of apps.
 Once this is done for the two applications, we can create our campaign.
 
 ## Launching the campaign
-Click on the ***APPLICATION SCANS*** and you'll reach the campaign management page. From there, click on the ***Launch a new Campaign*** button and follow the Wizard:
+Click on the ***APPLICATION SCANS*** in the top menu and you'll reach the campaign management page. From there, click on the ***Launch a new Campaign*** button and follow the Wizard:
 ![New Campaign](/images/Declare-3.png)
 
 In the ***Configuration*** tab, we'll ask for both the source scans and some survey answers. Let's add the two most basic surveys: ***Application Properties*** and ***Business Impact***

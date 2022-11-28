@@ -6,7 +6,7 @@ weight: 4
 
 # The Big Picture
 
-Now that we have seen how the code scan results can be leveraged to gather detailed actionable insight to make our applications healthier or more cloud-ready, it's time to get some altitude and look at the broader picture.
+Now that we have seen how the code scan results can be leveraged to gather detailed actionable insight to make our applications healthier or more cloud-ready, it's time to get some altitude and look at the broader picture. We will navigate from the detailed look into our two sample apps to having a look at a large example portfolio of many applications, which is the kind of result you would get from scanning all the applications in a department or company.
 
 ### What's my use case?
 Here are a few typical challenges that are faced by many people with key roles in IT:

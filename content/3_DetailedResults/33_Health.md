@@ -44,14 +44,16 @@ It might not be practical to approach health issues *by rule*, but instead focus
 Because if you're going to work on a file to improve something, you might as well get rid of all the issues in there.
 ## How maintainable is it?
 Using the other subtabs, you can explore the application's ***Agility*** and ***Elegance***.
-
+![Agility and Elegance](/images/Agility-Button.png)
 Can you find out which JavaScript file is pulling everthing down?
 
 ## Getting it all together
 
 We have spent some time drilling down through every aspect of this application, and we seem to have neglected the other one a bit. It might take us a while to go through it all and prepare detailed reports for our teams... *or will it?*
 
-Go back to the applications list (for instance through the top menu, by clicking on ***DASHBOARDS*** and then ***Applications Results***) and find the *Flight Booking* application.
+Go back to the applications list (for instance through the top menu, by clicking on ***DASHBOARDS*** and then ***Applications Results***) 
+![Application Results Button](/images/AppResults-Button.png)
+and find the *Flight Booking* application.
 {{% notice tip %}}
 You can sort tables by any column (ascending or descending) and this one also provides a search box for when the portfolio is large.
 {{% /notice %}}
@@ -59,6 +61,6 @@ Once you've reached the individual application's dashboard, check out the ***PPT
 ![A fullyy automated report](/images/DetailedHealth-5.png)
 
 Go ahead and request a Powerpoint report containing the data of your choosing. In a matter of minutes, you'll get a complete automated report containing all the application's detailed insights ready to download or conveniently delivered to your mailbox.
-
+![Delivered to your mailbox](/images/Report-email.png)
 ## Onto the big picture
 Now that we've seen the details of what CAST Highlight does, it's time for us to get some altitude...

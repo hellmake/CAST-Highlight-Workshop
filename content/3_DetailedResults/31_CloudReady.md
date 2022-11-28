@@ -83,3 +83,4 @@ What's certain is that you won't be lacking information... which by the way CAST
 
 ## Code Blockers aren't the only Blockers
 We've talked about the Cloud Readiness of your app's custom code, but that code is not alone. Click on the ***Software Composition*** tab in the Application's menu...
+![SCA Button](/images/SCA-Button.png)
