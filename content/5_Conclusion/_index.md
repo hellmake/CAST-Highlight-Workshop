@@ -24,3 +24,4 @@ An AWS prescriptive guidance for CAST Highlight is available [here](https://docs
 ## Diving even deeper into applications using CAST Imaging
 
 For those applications that require deep architecture review, modernization, re-documentation or structural quality assessment, check out [CAST Imaging](https://www.castsoftware.com/products/imaging): it's like *Google Maps* for your code!
+![CAST Imaging Web Page](/images/Imaging-1.png)

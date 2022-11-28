@@ -49,7 +49,7 @@ Can you find out which JavaScript file is pulling everthing down?
 
 ## Getting it all together
 
-We have spent some time drilling down through every aspect of this application, and we seem to have neglected the other one a bit. It might take us a while to go through it all and prepare detailed reports for our teams... *or will it?*
+We have spent some time drilling down through every aspect of this application, and now we'd like to explore the other one. This time, as we go through it all, we'd like to build a detailed report that we can present to our team. That sounds like it will take a lot of work... *or will it?*
 
 Go back to the applications list (for instance through the top menu, by clicking on ***DASHBOARDS*** and then ***Applications Results***) 
 ![Application Results Button](/images/AppResults-Button.png)
@@ -62,5 +62,14 @@ Once you've reached the individual application's dashboard, check out the ***PPT
 
 Go ahead and request a Powerpoint report containing the data of your choosing. In a matter of minutes, you'll get a complete automated report containing all the application's detailed insights ready to download or conveniently delivered to your mailbox.
 ![Delivered to your mailbox](/images/Report-email.png)
+
+In this report, you'll get the executive summary:
+![Report Exec Summary](/images/Report-1.png)
+the health insights:
+![Report Health](/images/Report-2.png)
+the software composition results:
+![Report SCA](/images/Report-3.png)
+... and the Cloud Readiness Boosters & Blockers, all ready to present and share.
+![Report CloudReady](/images/Report-4.png)
 ## Onto the big picture
 Now that we've seen the details of what CAST Highlight does, it's time for us to get some altitude...

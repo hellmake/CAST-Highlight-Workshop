@@ -15,9 +15,10 @@ You may now
 * delete the two code repositories you downloaded for this workshop
 * delete the scan results files (.csv and .zip files)
 * uninstall the CAST Highlight Agent from the computer.
+![How to Uninstall](/images/Uninstall-HL.png)
 
 #### If you spun up an EC2 instance specifically for this workshop
 
 You may now discard it. Step 3 of [this tutorial](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/EC2_GetStarted.html) explains how to do this. 
 
-If you are using a shared resources pool, make sure that the EC2 instance you're terminating is the one you created for this workshop.
+If you are managing other virtual machines, make sure that the EC2 instance you're terminating is the one you created for this workshop.
