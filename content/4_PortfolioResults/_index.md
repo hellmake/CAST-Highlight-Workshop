@@ -6,7 +6,7 @@ weight: 4
 
 # The Big Picture
 
-Now that we have seen how the code scan results can be leveraged to gather detailed actionable insight to make our applications healthier or more cloud-ready, it's time to get some altitude and look at the broader picture. We will navigate from the detailed look into our two sample apps to having a look at a large example portfolio of many applications, which is the kind of result you would get from scanning all the applications in a department or company.
+Now that we have seen how the code scan results can be leveraged to gather detailed actionable insight to make our applications healthier or more cloud-mature, it's time to get some altitude and look at the broader picture. We will navigate from the detailed look into our two sample apps to having a look at a large example portfolio of many applications, which is the kind of result you would get from scanning all the applications in a department or company.
 
 ### What's my use case?
 Here are a few typical challenges that are faced by many people with key roles in IT:
@@ -20,7 +20,7 @@ As much as these situations denote very different levels of cloud adoption and m
 
 ### Seeing it live
 Let's go back to the home page of the CAST Highlight portfolio. This can always be done by clicking on the ***Home*** button in the top menu:
-![Home](/images/BP-Cloud-1.png)
+![Home](/images/Home-Button.png)
 
 From here, we want to switch our attention to the *Read-Only Environment* by clicking on the funnel icon in the top right:
 ![Subdomain Switcher](/images/Register-10.png)
@@ -30,4 +30,4 @@ We're now looking at the overall results of a ~200 applications portfolio. The f
  The applications shown in this *sandbox* portfolio are publicly shared to give an overview of all of CAST Highlight's capabilities. This portfolio is shared between all the users of this workshop. It's worth mentioning that when you do have your own CAST Highlight subscription, your portfolio will be on your own instance and none of it will be shared with other clients.
 {{% /notice %}}
 
-Click on the big ***CloudReady*** blue tile and we'll start the exploration...
+Click on the big ***Cloud Maturity*** blue tile and we'll start the exploration...

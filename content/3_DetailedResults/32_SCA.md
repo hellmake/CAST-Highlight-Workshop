@@ -18,11 +18,11 @@ Our application's ***SCA*** dashboard looks like this:
 ![SCA Dashboard](/images/DetailedSCA-1.png)
 
 There's lots going on here:
-- We see that there are dozens of third-party libraries embedded within our codebase
+- We see that there are many third-party libraries embedded within our codebase
 	- CAST Highlight detects them either from them being required within the project files or from actually finding the package's files within the scanned code (CAST has an ever-growing database containing the *fingerprints* of every version of every file of every package we can find on popular repositories. Every file scanned is checked against that database.)
 - Some packages are quite old
-- There are a handful of ***High-Risk Licenses***
-- There are a number of ***High and Critical Severity Security Vulnerabilities*** related to those packages
+- There is a ***High-Risk Licenses***
+- There are a number of ***High and Medium Severity Security Vulnerabilities*** related to those packages.
 
 Let's start with the ***Vulnerabilities*** subtab:
 ![Vulnerabilities Button](/images/Vulnerabilities-Button.png)
@@ -34,14 +34,13 @@ This organization hosts a public database detailing all known security issues of
 Since this information is out in the open, it's a safe bet that hackers know about the security hole in *that unpatched library we use to secure our connections*. Let's see what we can do about it:
 ![Vulnerabilities](/images/DetailedSCA-2.png)
 
-Sorting by the ***CVE*** column, we see the most vulnerable packages associated with our application. We can click on spring-core's black box of critical vulnerabilities to get details on them:
+Sorting by the ***CVE*** column, we see the most vulnerable packages associated with our application. We can click on any of jetty's red boxes of high-severity vulnerabilities to get details on them:
 ![Critical CVEs](/images/DetailedSCA-3.png)
 This piece of information is important as it will allow the application's team to evaluate their actual exposure to the identified risks and better decide what to do about it. Most of the time an update of the library is enough to solve most issues, which we can check by clicking on the component's name:
 ![Component Timeline](/images/DetailedSCA-4.png)
-On this ***Component's Timeline*** we can see that the latest version is still affected by a single Critical CVE, which may or may not be acceptable for us.
+On this ***Component's Timeline*** we can see that the latest version is only affected by a single medium-severity CVE, which may or may not be acceptable for us.
 
-The next most problematic component on this list is Log4j: on top of sporting several (yet unresolved) CVEs, you'll see that by performing a thorough analysis of its code using ***CAST Imaging***, we have also identified several ***Common Weaknesses (CWEs)*** in there. Clicking on the little black tile brings up their list:
-![CWEs](/images/DetailedSCA-5.png)
+[The next most problematic component on this list is Log4j: on top of sporting several (yet unresolved) CVEs, you'll see that by performing a thorough analysis of its code using ***CAST Imaging***, we have also identified several ***Common Weaknesses (CWEs)*** in there. Clicking on the little black tile brings up their list:]: #
 
 ### Licenses and obsolescence
 ![Licenses Button](/images/Licenses-Button.png)
@@ -49,10 +48,10 @@ Going to the ***Licenses*** subtab you can find a breakdown of the licenses clai
 ![License Details](/images/DetailedSCA-6.png)
 ... maybe we'll want to have a lawyer take a look at this.
 
-Finally, clicking on the ***Obsolescence*** subtab, we can see which components have the biggest gap between the version used and the latest available one... 11 years is quite a long time.
+Finally, clicking on the ***Obsolescence*** subtab, we can see which components have the biggest gap between the version used and the latest available one... 10 years is quite a long time.
 ![License Details](/images/DetailedSCA-7.png)
 
-As with the other topics, we can get a compiled version of this feedback by clicking on the ***Download BOM*** button in the upper-right part of the dashboard. This will let you choose the format in which you'd like to get your *Bill of Materials*.
+As with the other topics, we can get a compiled version of this feedback by clicking on the ***Download BOM*** button in the upper-right part of the dashboard. This will let you choose the format in which you'd like to get your *Software Bill of Materials*.
 
 ### The path to clean code
 So, is our code good now that we've removed cloud Blockers and vulnerable dependencies? Well, there's still some things we should look at...

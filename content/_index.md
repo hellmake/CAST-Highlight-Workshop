@@ -9,7 +9,7 @@ weight: 1
 
 ## Accelerate the Modernization of a Portfolio of Applications to AWS, and on AWS 
 
-In this workshop, you will learn how to use CAST Highlight to automatically and accurately analyze the cloud readiness of a portfolio of hundreds of custom applications of any technology in a week. This applies to both applications that still run on-premise or have been lifted-and-shifted to AWS, Google or Azure already, helping you to determine how to migrate & modernize them on AWS in a rapid and safe way. 
+In this workshop, you will learn how to use CAST Highlight to automatically and accurately analyze the cloud maturity of a portfolio of hundreds of custom applications of any technology in a week. This applies to both applications that still run on-premise or have been lifted-and-shifted to AWS, Google or Azure already, helping you to determine how to migrate & modernize them on AWS in a rapid and safe way. 
 
 Beyond the initial assessment, you will also learn how to leverage CAST Highlight to track progress of your journey-to-cloud program throughout its lifetime, and continuously analyze the open source safety and software health of your entire portfolio over time, as applications keep getting modernized and evolve further. 
 
@@ -24,7 +24,7 @@ In this workshop, you will learn how to:
 
 ### Target audience
 
-Executing this workshop to completion does not require any specific skills. The insights provided by CAST Highlight cover the spectrum from developers (code insightsa and cloud blockers) through CIOs (portfolio advisors) therefore some of the feedback will be more relevant to those with some programming experience.  
+Executing this workshop to completion does not require any specific skills. The insights provided by CAST Highlight cover the spectrum from developers (code insights and cloud blockers) through CIOs (portfolio advisors) therefore some of the feedback will be more relevant to those with some programming experience.  
 
 ## Workshop Agenda and resrouces
 
@@ -38,7 +38,7 @@ Plan on taking about 1.5 hours to complete the full workshop.
 
 ### Resources requirements and cost
 
-The use of the CAST Highlight Agent and demonstration portfolio for the purposes of this workshop is completely free.
+The use of the CAST Highlight Code Reader and demonstration portfolio for the purposes of this workshop is completely free.
 
 The local code analysis can be run on any windows machine with a modern browser. If you opt to spin up an EC2 instance specifically for this purpose, you might incur the associated costs (although the computation requirements are well within the free tier).
 

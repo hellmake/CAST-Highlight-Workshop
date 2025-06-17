@@ -25,8 +25,8 @@ The five Portfolio Advisor for Cloud segments are defined as follows:
 ### How the recommended segment is determined
 For each application having scan results, CAST Highlight blends relevant Software Intelligence insights, weights, and benchmarks together to determine the recommended segment. Here are the indicators the Portfolio Advisor for Cloud uses to establish the segmentation recommendations:
 - ***Business Impact*** scores (from the Business Impact survey)
-- ***CloudReady*** scores and benchmarks (Blocker and Booster patterns)
-- ***CloudReady Estimated Effort*** (to remediate Blockers)
+- ***Cloud Maturity*** scores and benchmarks (Blocker and Booster patterns)
+- ***Cloud Maturity Estimated Effort*** (to remediate Blockers)
 - ***Software Health*** scores and benchmarks (Resiliency, Agility, Elegance)
 - ***Open Source Safety*** scores and benchmarks (vulnerabilities, license risk, obsolescence)
 
@@ -36,14 +36,14 @@ Here we see that while *Rearchitect* is the winning segment for this one, *Rehos
 ## Planning the journey
 Speaking of which, it's nice to know what we'd like to achieve ultimately for those apps, but that may still be a daunting task. What's our short-term plan?
 ### Where to start?
-Click on the ***Decision Matrix*** tab and you'll see that you get a graph where:
+Click on the ***Cloud Migration Waves*** tab and you'll see that you get a graph where:
 - Each bubble represents an application
-- Its size is the number of *Roadblocks* identified in its CloudReady assessment
+- Its size is the amount of *Cloud Effort* identified in its Cloud Maturity assessment
 	- You may go ahead and change this to represent the estimated effort or the number of code lines by using the listbox on the top right of the graph
 - Its position on the y-axis is its *Business Impact*: apps at the top are more important
-- Its position on the x-axis is given by its *CloudReady score*: apps on the right are quite ready to move
+- Its position on the x-axis is given by its *Cloud Maturity score*: apps on the right are quite ready to move
 
-We then naturally see 4 quadrants emerging from this:
+We then naturally see 4 segments emerging from this, corresponding to the order in which you should probably tackle your migrations:
 ![Decision Matrix](/images/PortfolioCloud-4.png)
 - ***Quick Wins*** are apps that you can probably migrate relatively easily... and if you hit a few bumps along the way, you'll be glad that they aren't vital to your business. Those are the best ones to start your cloud journey with and have your teams gain some experience.
 - ***Core Cloud*** apps are also quite ready to migrate, but their business criticality means that you'll probably want to tackle them with more care and planning.
@@ -55,21 +55,21 @@ Wouldn't it be nice to have an idea of what our cloud landscape will look like? 
 ![Service Recommendations](/images/PortfolioCloud-5.png)
 
 ### Solving issues
-Likewise, all of the ***Blockers*** and ***Boosters*** identified on all the apps are brought together in the ***Cloud Requirements*** tab. You can see that several of them are not *agnostic* but in fact limited to a specific cloud provider. Clicking on the number of affected apps for a requirement brings up the list of said apps: 
+Likewise, all of the ***Blockers*** and ***Boosters*** identified on all the apps are brought together in the ***Cloud Patterns*** tab. You can see that several of them are not *agnostic* but in fact limited to a specific cloud provider. Clicking on the number of affected apps for a requirement brings up the list of said apps: 
 ![Boosters](/images/PortfolioCloud-6.png)
-When it comes to *Blockers* you also get the total number of *Roadblocks* and estimate of the effort required to fix them:
+When it comes to *Blockers* you also get the total number of *Occurrences* and estimate of the effort required to fix them:
 ![Blockers](/images/PortfolioCloud-7.png)
 This is where you can make strategic decisions about how to tackle some issues, for example assigning a transverse team of experts to fix a specific Blocker throughout the whole portfolio.
 
 ### Catering to specific needs
-Similar to *Cloud Requirements*, if your migration strategy involves some systematic *Containerization* of apps, clicking on that tab will take you to the consolidated list of requirements:
+Similar to *Cloud Patterns*, if your migration strategy involves some systematic *Containerization* of apps, clicking on that tab will take you to the consolidated list of requirements:
 ![Containerization](/images/PortfolioCloud-8.png)
 And here's another use case: you may have applications already running across multiple cloud providers that you would like to consolidate on AWS. Click on the ***Multi-Cloud*** tab and see what will need to be addressed to make this move easier.
 ![Multi-Cloud](/images/PortfolioCloud-9.png)
 
 ### App to App Dependencies
 Unless you clearly understand the boundaries and technical interactions of each of your applications across your entire portfolio, it is a real challenge to consolidate the various software links, especially when you have hundreds or even thousands of apps. However, anticipating and estimating the impact of a change in the application landscape is key, regardless of the use case (Cloud migration, application modernization, software resiliency heatmap, etc.)
-In the top menu's ***DASHBOARDS***, choose ***Application Links*** to explore the relationships declared between the apps:
+In the top menu's drawer, under ***Advanced Insights***, choose ***Application Links*** to explore the relationships declared between the apps:
 ![App Dependencies](/images/PortfolioCloud-10.png)
 Selecting applications you intend to migrate, you can immediately see which ones are in their adhenrence and might be impacted by the next wave of migrations.
 

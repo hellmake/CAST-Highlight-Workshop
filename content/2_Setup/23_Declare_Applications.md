@@ -11,7 +11,7 @@ We need to let CAST Highlight know what we're going to be dealing with, which is
 
 ## Extending the portfolio
 
-From the CAST Highlight home page, click on the ***MANAGE PORTFOLIO*** menu and then on ***Manage Applications***:
+From the CAST Highlight home page, click on the ***MANAGE PORTFOLIO*** menu and then on ***Users & Apps***:
 ![Manage Applications](/images/Declare-1.png)
 
 {{% notice tip %}}
@@ -21,9 +21,9 @@ If you can't see the ***MANAGE PORTFOLIO*** menu up there, this means that you'r
 The administration menus will automatically appear at the top of your screen.
 {{% /notice %}}
 
-You'll reach the applications management page (which at this stage should show an empty list). Let's click on that big ***+ Create Application*** button to add our first new app.
+You'll reach the applications management page (which at this stage should show 0 applications). Let's click on the ***Add*** button in the *TOTAL APPLICATIONS* box.
 ![Add app button](/images/Declare-8.png)
-You can give it a name and set yourself as a Contributor (or leave the ***Contributors*** box empty - at this stage it doesn't really matter), then click on ***Save***.
+You can give it a name (and leave the other boxes (***Client Reference***, ***Application Contribution***, ***Application Grouping***) in their default state - at this stage it doesn't really matter), then click on ***Save***.
 ![Add a new app](/images/Declare-2.png)
 
 And you'll see the application added to the list of apps.
@@ -41,6 +41,7 @@ In the ***Configuration*** tab, we'll ask for both the source scans and some sur
 CAST Highlight allows you to enrich the information gathered on the app with the help of **surveys**. In addition to the out-of-the-box surveys included in the product, surveys can be added and customized at will to enable your teams to capture relevant facts and even create custom KPIs to be added to your custom dashboards.
 {{% /notice %}}
 
+In the ***Application Scope*** tab we can add our two newly-declared apps:
 ![Application Selection](/images/Declare-5.png)
 You may set the ***Launch message*** to **OFF** as we don't have any other Contributors to inform about this new campaign.
 ![Launch Message](/images/Declare-6.png)
@@ -48,6 +49,6 @@ And now our campaign management screen shows two pending scans associated with o
 ![Campaign Launched](/images/Declare-7.png)
 
 ### Onto the tools
-Now, we'll download and install the analyzer...
+Now, we'll download and install the Code Reader...
 
 

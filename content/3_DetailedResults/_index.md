@@ -21,7 +21,7 @@ This workshop follows a bottoms-up approach, which means that we'll first explor
 ## Chapter Overview
 
 This chapter will perform a deep dive into our two applications on the following aspects:
-- **Cloud Readiness**: How fit are the applications for being deployed onto PaaS? And what can we do to improve the process?
+- **Cloud Maturity**: How fit are the applications for being deployed onto PaaS? And what can we do to improve the process?
 - **Software Composition**: What are the risks posed by the third-party libraries leveraged by our apps?
 - **Software Health**: How good is the app's code itself? Is it sturdy, clear and maintainable?
 
@@ -29,7 +29,7 @@ All these aspects are fundamental to drive a move-to-cloud or modernization proj
 
 ## Where to find our new apps
 
-Let's find our way back to the main *home page* by clicking on ***HOME*** in the top menu. 
+Let's find our way back to the main *home page* by clicking on the house icon in the top menu. 
 ![Home Button](/images/Home-Button.png)
 Now let's scroll down on that page until we see the list of ***Latest Onboarded Apps***:
 ![Latest Apps](/images/DetailedIntro-1.png)
@@ -47,12 +47,12 @@ This is the indivual page for this application. From here, we'll be able to acce
 	- ***Software Resiliency*** (how **sturdy** the application is)
 	- ***Software Agility*** (how **maintainable** the application is)
 	- ***Software Elegance*** (how **non-complex** the application is)
-- ***Cloud Readiness*** (how ready the app is for being hosted on **PaaS**)
+- ***Cloud Maturity*** (how ready the app is for being hosted on **PaaS**)
 - ***Open-Source Safety*** (how safe safe are the 3rd-party libraries used)
 - ***Business Impact*** (how important that application is for the company. This is derived from the answers to the *Business Impact* survey you filled out a few minutes ago).
 
 Below the application's name, you can see the application's menu (we're currently on the ***Overview*** tab), which is where we'll navigate through the various screens detailing the insights generated for the app.
 
-### Onto Cloud Readiness
-![CloudReady Button](/images/CloudReady-Button.png)
-Click on the ***CloudReady*** tab of the application's menu, and we'll see if it's ready to fly...  
+### Onto Cloud Maturity
+![Cloud Maturity Button](/images/CloudReady-Button.png)
+Click on the ***Cloud Maturity*** tab of the application's menu, and we'll see if it's ready to fly...  

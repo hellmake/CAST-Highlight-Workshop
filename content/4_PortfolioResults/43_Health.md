@@ -25,12 +25,12 @@ These are all the demographics broken down by the answers to each survey questio
 - How many ERPs are we using?
 	- Which one has the highest maintenance cost?
 
-Questions like this naturally arise when looking at such pie charts and they open the door to asking *"Do we need all those apps? Isn't there some redundancy there?"*. Only you can answer that, but CAST Highlight can probably help you by going to the ***DASHBOARDS*** menu and choosing ***Application Categories***.
+Questions like this naturally arise when looking at such pie charts and they open the door to asking *"Do we need all those apps? Isn't there some redundancy there?"*. Only you can answer that, but CAST Highlight can probably help you by going to the top drawer menu, and under ***Advanced Insights*** choosing ***Application Categories***.
 ![Many ways to Rome](/images/PortfolioHealth-5.png)
 Notice that you can get this kind of breakdown for any survey question (see the selector in the top right). This should definitely help with ***Portfolio Rationalization***.
 
-## Another Decision Matrix
-We have many ways to cater to the interests of a portfolio manager. Another one would be to simply answer the question *How do I manage my application's quality from here?* Click on the top menu's ***HOME*** tab from the home page, click on the ***SOFTWARE HEALTH*** tile.
+## A Decision Matrix
+We have many ways to cater to the interests of a portfolio manager. Another one would be to simply answer the question *How do I manage my application's quality from here?* Click on the top menu's ***HOME*** tab and, from the home page, click on the ***SOFTWARE HEALTH*** tile.
 ![Quality bubbles](/images/PortfolioHealth-3.png)
 Here is another useful bubble chart comparing *Software Resiliency* to *Business Impact*... and once again we find 4 quadrants:
 - In the bottom right: applications that are healthy and relatively unimportant. We'll leave them be.
@@ -41,17 +41,17 @@ Here is another useful bubble chart comparing *Software Resiliency* to *Business
 	- Maybe use the *Export to Excel* feature to give those to the app's dev team so they can use that insight to put together an action plan to improve the application's health.
 
 {{% notice tip %}}
-These charts that place applications on a 2-dimensional grid can be generated at will, using any metric known inside CAST Highlight (including custom KPIs derived from custom survey answers). Check it out by going from the top menu into ***DASHBOARDS*** and then ***Custom Dashboard***.
+These charts that place applications on a 2-dimensional grid can be generated at will, using any metric known inside CAST Highlight (including custom KPIs derived from custom survey answers). Check it out by going from the top menu's drawer, under ***Portfolio Customization*** choose ***Custom Dashboard***.
 {{% /notice %}}
 
 ## Technical Debt
-The last metric we should visit is in the ***DASHBOARDS*** top menu tab, under ***Technical Debt***.
+The last metric we should visit is in the top menu's drawer, under ***Software Health*** select ***Technical Debt Advisor***.
 
 Technical Debt represents the effort required to fix problems that remain in the code when an application is released. This concept is popular in many use cases that Software Intelligence supports: Application Portfolio Rationalization, Software Health Assessment, Tech Due Diligence, etc. 
 
 Technical Debt estimates rely exclusively on CAST Highlight’s code insights and their respective number of occurrences found during the code scan. For each improvement opportunity we have a standard value for the time it takes to remediate it (those can also be customized to be tailored to your organization's skills). The total *technical debt* of an application is just the sum of them all.
 
-In the dashboard's menu, click on the ***Portfolio Advisor for Technical Debt*** tab and check out how you can explore where that debt actually comes from:
+In this dashboard, check out how you can explore where that debt actually comes from:
 ![Where does my debt come from?](/images/PortfolioHealth-4.png)
 Can you find out
 - which technology bears the most technical debt?

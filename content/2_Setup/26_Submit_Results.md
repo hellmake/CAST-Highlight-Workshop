@@ -6,7 +6,7 @@ weight: 6
 
 # Submitting Results
 
-The "technical" work is now done. The ***CAST Highlight Agent*** has done its job and produced scan results for both applications and we're going to upload them to our portfolio.
+The "technical" work is now done. The ***CAST Highlight Code Reader*** has done its job and produced scan results for both applications and we're going to upload them to our portfolio.
 
 Let's go back to the CAST Highlight web portal (using our EC2 instance if we used that for scanning) and click on the ***APPLICATION SCANS*** menu (if you don't see this menu, remember the trick to switch to your own *subdomain*). Our campaign is still pending: 
 ![Campaign Launched](/images/Declare-7.png)
@@ -34,7 +34,7 @@ And once the answers are saved, we can click on the ***Submit*** button and let 
 While it does that, you should repeat the process with the second application so that the campaign is wrapped-up.
 
 {{% notice info %}}
-At this stage, if you have used an EC2 instance to perform the scans and would rather go back to the comfort of your own local browser, you may do so as we will no longer use the local code scan agent or the windows machine (we'll clean it up at the end of the workshop).
+At this stage, if you have used an EC2 instance to perform the scans and would rather go back to the comfort of your own local browser, you may do so as we will no longer use the local Code Reader or the windows machine (we'll clean it up at the end of the workshop).
 {{% /notice %}}
 
 

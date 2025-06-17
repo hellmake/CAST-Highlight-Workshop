@@ -14,7 +14,7 @@ Before we generate insights about our applications, we have some setup to do. He
 
 - Register as a CAST Highlight user
 - Get a couple apps that we want to analyze
-- Download and launch the analyzer
+- Download and launch the Code Reader
 - Upload the results to the CAST Highlight platform.
 
 The overview of this process looks like this:

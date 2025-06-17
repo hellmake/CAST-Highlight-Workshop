@@ -14,7 +14,7 @@ Your demo account will be automatically cleaned up within a few days. As for loc
 You may now  
 * delete the two code repositories you downloaded for this workshop
 * delete the scan results files (.csv and .zip files)
-* uninstall the CAST Highlight Agent from the computer.
+* uninstall the CAST Highlight Code Reader from the computer.
 ![How to Uninstall](/images/Uninstall-HL.png)
 
 #### If you spun up an EC2 instance specifically for this workshop
