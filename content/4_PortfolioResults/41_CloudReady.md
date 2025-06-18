@@ -67,16 +67,6 @@ Similar to *Cloud Patterns*, if your migration strategy involves some systematic
 And here's another use case: you may have applications already running across multiple cloud providers that you would like to consolidate on AWS. Click on the ***Multi-Cloud*** tab and see what will need to be addressed to make this move easier.
 ![Multi-Cloud](/images/PortfolioCloud-9.png)
 
-### App to App Dependencies
-Unless you clearly understand the boundaries and technical interactions of each of your applications across your entire portfolio, it is a real challenge to consolidate the various software links, especially when you have hundreds or even thousands of apps. However, anticipating and estimating the impact of a change in the application landscape is key, regardless of the use case (Cloud migration, application modernization, software resiliency heatmap, etc.)
-In the top menu's drawer, under ***Advanced Insights***, choose ***Application Links*** to explore the relationships declared between the apps:
-![App Dependencies](/images/PortfolioCloud-10.png)
-Selecting applications you intend to migrate, you can immediately see which ones are in their adhenrence and might be impacted by the next wave of migrations.
-
-{{% notice info %}}
-The Application Links dashboard requires that the *Application Links* survey be completed which can either be done by answering questions manually or importing the data from another system that already has this data.
-{{% /notice %}}
-
 ## How easy is this?
 Let's take a moment to think about what we have seen here: we can go from *"I have 200 applications which I want to move to that Cloud thing, but I have no idea where to start or what to do"* to having:
 - A recommended 5R migration path for each application

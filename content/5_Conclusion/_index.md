@@ -17,7 +17,7 @@ Or [contact a CAST representative](https://www.castsoftware.com/discover-cast/co
 
 For more in-depth tutorials on the advanced features of CAST Highlight, visit our product documentation web site: <https://doc.casthighlight.com/>
 
-You can even get certified through our [CAST Highlight Certification Program](https://doc.casthighlight.com/certification/).
+You can even get certified through our [CAST Highlight Training Program](https://docs.google.com/forms/d/13iIw-CZwyWjQd7veZnrQ4aq14oEgT6f0jA3F9mlhJAE/viewform?edit_requested=true).
 
 An AWS prescriptive guidance for CAST Highlight is available [here](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/assess-application-readiness-for-migration-to-the-aws-cloud-by-using-cast-highlight.html).
 
